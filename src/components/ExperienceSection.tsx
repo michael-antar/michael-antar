@@ -32,8 +32,9 @@ type ExperienceItemProps = {
 };
 
 const ExperienceItem = ({ experience }: ExperienceItemProps) => {
-    const { theme } = useTheme();
-    const logo = theme === 'dark' ? experience.logoDark : experience.logoLight;
+    const { resolvedTheme } = useTheme();
+    const logo =
+        resolvedTheme === 'dark' ? experience.logoDark : experience.logoLight;
     return (
         <div className="relative pl-8 md:pl-12 py-4">
             {/* The dot on the timeline */}
