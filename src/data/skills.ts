@@ -160,6 +160,31 @@ const SKILLS_DATA: { [key: string]: Omit<Skill, 'name'> } = {
         lightColor: '0, 100%, 65%',
         darkColor: '0, 100%, 65%',
     },
+    JUnit: {
+        icon: si.siJunit5,
+        lightColor: '150, 63%, 39%',
+        darkColor: '150, 63%, 39%',
+    },
+    'Google Cloud (GCP)': {
+        icon: si.siGooglecloud,
+        lightColor: '217, 89%, 61%',
+        darkColor: '217, 89%, 61%',
+    },
+    Kafka: {
+        icon: si.siApachekafka,
+        lightColor: '345, 6%, 13%',
+        darkColor: '345, 6%, 60%',
+    },
+    Docker: {
+        icon: si.siDocker,
+        lightColor: '206, 85%, 54%',
+        darkColor: '206, 85%, 54%',
+    },
+    'Next.js': {
+        icon: si.siNextdotjs,
+        lightColor: '0 0% 20%',
+        darkColor: '0 0% 80%',
+    },
 };
 
 // Simple hash for fallback color

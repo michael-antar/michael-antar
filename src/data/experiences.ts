@@ -36,7 +36,7 @@ export const experienceData: Experience[] = [
             'Networking Protocols',
             'Python',
             'IoT',
-            'REST API',
+            'REST APIs',
             'JUnit',
             'Postman',
             'Robot Framework',

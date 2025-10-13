@@ -5,7 +5,7 @@ import { useTheme } from 'next-themes';
 export const SkillCategories = () => {
     const { resolvedTheme } = useTheme();
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 xlg:grid-cols-2 gap-8">
             {skillCategoriesData.map((category) => {
                 const baseColor =
                     resolvedTheme === 'dark'
